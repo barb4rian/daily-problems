@@ -5,7 +5,7 @@ class Solution {
         
         for (int i = 0; i < n; i++) 
 
-        {  adj.add(new ArrayList<>()); }
+        {  adj.add(new ArrayList<>());     }
 
         for (int[] e : edges) 
 
@@ -25,4 +25,5 @@ class Solution {
         return sum;
 
     }
+
 }
